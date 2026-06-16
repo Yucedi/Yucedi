@@ -1,0 +1,13 @@
+{
+  "_comment": "复制本文件为 polymarket.config.json 以按部署环境配置。优先级：命令行参数 > 环境变量 > 本文件 > 内置默认。",
+  "_proxy_examples": {
+    "本机走 Clash": "http://127.0.0.1:7897",
+    "服务器自有出口代理": "http://10.0.0.5:8080",
+    "海外服务器可直连 / 走 relay": "direct"
+  },
+  "_relay_note": "国内用户：在墙外架一个 relay（见 relay/ 目录），把 gamma_base/clob_base 指过去，proxy 设为 direct。不填则默认直连官方 API。",
+  "proxy": "http://127.0.0.1:7897",
+  "gamma_base": "",
+  "clob_base": ""
+}
+

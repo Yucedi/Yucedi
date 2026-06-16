@@ -1,0 +1,8 @@
+{
+  "signals": [
+    {"source": "odds", "probabilities": {"LAL_win": 0.444, "BOS_win": 0.556}, "note": "Oddschecker median"},
+    {"source": "elo", "probabilities": {"LAL_win": 0.5857, "BOS_win": 0.4143}, "note": "ClubElo, LAL home"},
+    {"source": "historical", "probabilities": {"LAL_win": 0.559, "BOS_win": 0.441}, "note": "LAL 7/10, BOS 6/10, H2H 3-2"},
+    {"source": "sentiment", "probabilities": {"LAL_win": 0.498, "BOS_win": 0.502}, "note": "avg sentiment -0.033"}
+  ]
+}

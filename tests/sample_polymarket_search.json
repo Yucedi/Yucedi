@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "title": "Spain vs Cape Verde (World Cup, Group H)",
+      "slug": "spain-vs-cape-verde",
+      "markets": [
+        {
+          "question": "Will Spain beat Cape Verde?",
+          "slug": "will-spain-beat-cape-verde",
+          "outcomes": "[\"Spain\", \"Cape Verde\"]",
+          "outcomePrices": "[\"0.861\", \"0.139\"]",
+          "clobTokenIds": "[\"71321...spain\", \"71321...capeverde\"]",
+          "volumeNum": 142350,
+          "liquidityNum": 38120,
+          "active": true,
+          "closed": false,
+          "archived": false
+        }
+      ]
+    },
+    {
+      "title": "World Cup 2026 Winner",
+      "slug": "world-cup-2026-winner",
+      "markets": [
+        {
+          "question": "Will Cape Verde win the 2026 FIFA World Cup?",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+          "volumeNum": 42844461,
+          "liquidityNum": 21382055,
+          "closed": false
+        }
+      ]
+    }
+  ]
+}
